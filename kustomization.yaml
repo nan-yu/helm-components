@@ -4,7 +4,7 @@ helmCharts:
   namespace: cert-manager
   valuesFile: https://raw.githubusercontent.com/config-sync-examples/helm-components/main/cert-manager-values.yaml
 - name: prometheus
-  repo: https://prometheus-community.github.io/helm-charts
+  repo: https://github.com/prometheus-community/helm-charts/
   version: 14.3.0
   releaseName: my-prometheus
   namespace: monitoring
