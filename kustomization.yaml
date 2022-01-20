@@ -1,10 +1,2 @@
-helmCharts:
-- name: cert-manager
-  releaseName: my-cert-manager
-  namespace: cert-manager
-  valuesFile: https://raw.githubusercontent.com/config-sync-examples/helm-components/main/cert-manager-values.yaml
-- name: prometheus
-  repo: https://github.com/prometheus-community/helm-charts/
-  version: 14.3.0
-  releaseName: my-prometheus
-  namespace: monitoring
+resources:
+- git::git@github.com:nan-yu/private-kustomize-repo.git
